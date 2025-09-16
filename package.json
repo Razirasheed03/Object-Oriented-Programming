@@ -7,5 +7,16 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Razirasheed03/Object-Oriented-Programming.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Razirasheed03/Object-Oriented-Programming/issues"
+  },
+  "homepage": "https://github.com/Razirasheed03/Object-Oriented-Programming#readme",
+  "description": "",
+  "dependencies": {
+    "node": "^24.8.0"
+  }
 }
