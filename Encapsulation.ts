@@ -8,7 +8,7 @@ class Bank {
     if (value > 0) {
       this.balance += value;
     } else {
-      console.log("invalide");
+      console.log("invalid");
     }
   }
   getBalance() {
