@@ -1,15 +1,15 @@
-interface Flyable{
-    fly():void,
-    speed:number,
-    height:number,
+interface Flyable {
+  fly(): void;
+  speed: number;
+  height: number;
 }
-class Plane implements Flyable{
-    speed=30;
-    height=30;
-    fly():void{
-        console.log("flyyy")
-    };
+class Plane implements Flyable {
+  speed = 30;
+  height = 30;
+  fly(): void {
+    console.log("flyyy");
+  }
 }
-const airPlane=new Plane()
-airPlane.fly()
-console.log(airPlane.speed)
+const airPlane = new Plane();
+airPlane.fly();
+console.log(airPlane.speed);
