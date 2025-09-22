@@ -8,5 +8,5 @@ class Animall extends LivingBeing {
     console.log("eating");
   }
 }
-const an = new Animall();
-an.breath();
+const animal = new Animall();
+animal.breath();

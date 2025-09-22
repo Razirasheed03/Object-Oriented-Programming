@@ -5,7 +5,7 @@ interface AirPlane {
 
 class Planes implements AirPlane {
   fly(): void {
-    console.log("flyiing");
+    console.log("flying");
   }
   speed = 300;
 }
