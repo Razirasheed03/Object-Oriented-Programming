@@ -8,4 +8,4 @@ class calculator {
 const calc = new calculator();
 
 console.log(calc.add(2, 2));
-console.log(calc.add("review", "pass"));
+console.log(calc.add("hello", "world"));
