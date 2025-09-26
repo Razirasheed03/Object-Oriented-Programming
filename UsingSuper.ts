@@ -14,5 +14,5 @@ class Dog extends Animal {
 }
 
 const d = new Dog("Bruno", "Labrador");
-console.log(d.name);  // Bruno
+console.log(d.name); // Bruno
 console.log(d.breed); // Labrador
