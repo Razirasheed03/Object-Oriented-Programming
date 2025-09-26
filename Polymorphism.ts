@@ -7,18 +7,18 @@ class Dogs extends Animal {
     console.log("bow bow");
   }
 }
-class Cat extends Animal {
+class Cats extends Animal {
   MakeSounds(): void {
     console.log("mew mew");
   }
 }
 
-// function MakeAnimalSound(s: Animal) {
-//   s.MakeSou();
-// }
+function MakeAnimalSound(s: Animals) {
+  s.MakeSounds();
+}
 
-const dog = new Dogs();
-const cat = new Cats();
+const dog = new Dogs("hi");
+const cat = new Cats("hi");
 
-MakeAnimalSound(dog);
-MakeAnimalSound(cat);
+// MakeAnimalSound(Dogs);
+// MakeAnimalSound(cat);

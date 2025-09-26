@@ -8,7 +8,7 @@ class Animal {
 class Dog extends Animal {
   breed: string;
   constructor(name: string, breed: string) {
-    super(name); // calls Animal's constructor
+    super(name);
     this.breed = breed;
   }
 }

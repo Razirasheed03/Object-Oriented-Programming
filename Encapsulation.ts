@@ -16,6 +16,6 @@ class Bank {
   }
 }
 const bank = new Bank(100);
-// bank.balance()
+// bank.balance() not work 
 bank.deposit(100);
 bank.getBalance();
