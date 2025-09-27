@@ -1,24 +1,24 @@
-abstract class Animals {
-  abstract MakeSounds(): void;
+abstract class Animal1 {
+  abstract MakeSound1(): void;
 }
 
-class Dogs extends Animal {
-  MakeSound(): void {
+class Dog1 extends Animal1 {
+  MakeSound1(): void {
     console.log("bow bow");
   }
 }
-class Cats extends Animal {
-  MakeSounds(): void {
+class Cat1 extends Animal1 {
+  MakeSound1(): void {
     console.log("mew mew");
   }
 }
 
-function MakeAnimalSound(s: Animals) {
-  s.MakeSounds();
+function MakeAnimalSound(s: Animal1) {
+  s.MakeSound1();
 }
 
-const dog = new Dogs("hi");
-const cat = new Cats("hi");
+const dog = new Dog1();
+const cat = new Cat1();
 
-// MakeAnimalSound(Dogs);
-// MakeAnimalSound(cat);
+MakeAnimalSound(dog);
+MakeAnimalSound(cat);
