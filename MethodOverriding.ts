@@ -1,13 +1,13 @@
-class Animals {
-  MakeSound(): void {
+class Animal2 {
+  MakeSound2(): void {
     console.log("some general sounds");
   }
 }
-class Cats extends Animals {
-  MakeSound(): void {
+class Cat2 extends Animal2 {
+  MakeSound2(): void {
     console.log("mew mew");
   }
 }
 
-const animals: Animals = new Cats();
-animals.MakeSound();
+const animal2: Animal2 = new Cat2();
+animal2.MakeSound2();
