@@ -16,6 +16,6 @@ class Bank {
   }
 }
 const bank = new Bank(100);
-// bank.balance() not work 
+// bank.balance() not work because balance is private
 bank.deposit(100);
 bank.getBalance();
