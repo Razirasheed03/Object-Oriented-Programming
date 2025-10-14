@@ -1,4 +1,5 @@
 //Polymorphism allows the same method to behave differently and has two types: compile-time (method overloading) and runtime (method overriding).
+
 abstract class Animal1 {
   abstract MakeSound1(): void;
 }
