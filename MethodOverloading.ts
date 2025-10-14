@@ -1,5 +1,6 @@
 //Method overloading means defining multiple methods with the same name but different parameters (number or type) in the same class.
-//  It helps perform similar tasks with different inputs.
+//It helps perform similar tasks with different inputs.
+
 class calculator {
   add(a: number, b: number): number;
   add(a: string, b: string): string;
