@@ -1,4 +1,5 @@
-////// example for using super keyword : super keyword is used for accessing method from the parent class in child class
+// example for using super keyword : super keyword is used for accessing method from the parent class in child class
+
 class Animal {
   name: string;
   constructor(name: string) {
