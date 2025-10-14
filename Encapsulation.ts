@@ -1,4 +1,5 @@
 //Encapsulation means keeping data private inside a class and allowing access only through specific methods.
+
 class Bank {
   private balance: number;
 
