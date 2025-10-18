@@ -1,4 +1,4 @@
-//Method overriding is when a subclass provides its own version of a method already defined in its parent class.
+// Method overriding is when a subclass provides its own version of a method already defined in its parent class.
 // It allows the subclass to change or extend the parent’s behavior.
 
 class Animal2 {
