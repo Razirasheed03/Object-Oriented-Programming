@@ -4,6 +4,7 @@
 
 // because of balance is private we can only access it via getter method
 
+// Here get Balance is the getter method that gives balance safely
 class Bank {
   private balance: number;
 
