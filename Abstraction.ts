@@ -1,4 +1,5 @@
 // The Flyable interface defines a contract that any class implementing it must have fly(), speed, and height.
+
 // Plane implements this interface, providing its own fly() method and values for speed and height.
 
 interface Flyable {
